@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script src="http://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script>
+		<script src="lunbo.js"></script>
+		<script>  
+			$(document).ready(function(){
+				$('.l1').lunbo({
+					type:'jianyin',
+					speed:5000
+				});	
+			})
+		</script>
+		<link rel="stylesheet" type="text/css" href="lunbo.css">
+	</head>
+	<body>
+		<div id="lunbo" class="l1" data-ani="" style="width:1247px; height:472px;">
+			<div id="lunimg">
+				<img class="active" src="l1.jpg">
+				<img src="l2.jpg">
+				<img src="l3.jpg">
+				<img src="l4.jpg">
+			</div>
+			<a href="javascript:void(0)" class="controller last">‹</a>
+			<a href="javascript:void(0)" class="controller next">›</a>
+			<ul class="point">
+				
+			</ul>
+		</div>
+	</body>
+</html>
